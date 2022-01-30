@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 import defaultImage from '../default.jpg';
-import styles from './Profile.module.css';
+import s from './Profile.module.css';
 
 const Profile = ({ userName, tag, location, avatar = defaultImage, stats }) => {
   return (
-    <div className={styles.profile}>
+    <div className={s.profile}>
       <div className="description">
         <img src={avatar} alt={userName} className="avatar" />
         <p className="name">{userName}</p>
