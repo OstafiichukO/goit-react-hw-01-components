@@ -5,25 +5,25 @@ import s from './Profile.module.css';
 const Profile = ({ userName, tag, location, avatar = defaultImage, stats }) => {
   return (
     <div className={s.profile}>
-      <div className="description">
-        <img src={avatar} alt={userName} className="avatar" />
-        <p className="name">{userName}</p>
-        <p className="tag">@{tag}</p>
-        <p className="location">{location}</p>
+      <div className={s.description}>
+        <img src={avatar} alt={userName} className={s.avatar} />
+        <p className={s.name}>{userName}</p>
+        <p className={s.tag}>@{tag}</p>
+        <p className={s.location}>{location}</p>
       </div>
 
-      <ul className="stats">
+      <ul className={s.stats}>
         <li>
-          <span className="label">Followers</span>
-          <span className="quantity">{stats.followers}</span>
+          <span className={s.label}>Followers</span>
+          <span className={s.quantity}>{stats.followers}</span>
         </li>
         <li>
-          <span className="label">Views</span>
-          <span className="quantity">{stats.vievs}</span>
+          <span className={s.label}>Views</span>
+          <span className={s.quantity}>{stats.vievs}</span>
         </li>
         <li>
-          <span className="label">Likes</span>
-          <span className="quantity">{stats.likes}</span>
+          <span className={s.label}>Likes</span>
+          <span className={s.quantity}>{stats.likes}</span>
         </li>
       </ul>
     </div>

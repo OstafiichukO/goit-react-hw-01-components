@@ -9,7 +9,7 @@ import transactions from './components/TransactionHistory/transactions.json';
 
 export default function App() {
   return (
-    <div>
+    <div className="container">
       <Profile
         userName={user.username}
         tag={user.tag}
