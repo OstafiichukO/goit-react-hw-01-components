@@ -6,6 +6,7 @@
   --primary-color: #3b3535ed;
   --history-bgc: rgb(188, 229, 245);
   --accent: #119eb1;
+  --accent-secondary: black;
 }
 
 body {

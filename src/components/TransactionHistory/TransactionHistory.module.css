@@ -1,5 +1,5 @@
 .transactionHistory {
-  color: black;
+  color: var(--accent-secondary);
   width: 500px;
   border-collapse: collapse;
   border: 1px solid var(--secondary-bgc);
@@ -8,13 +8,13 @@
 }
 
 th {
-  border: 1px solid black;
+  border: 1px solid var(--accent-secondary);
   background-color: var(--accent);
-  color: white;
+  color: var(--primary-bgc);
   padding: 5px 0 5px 0;
 }
 td {
-  border: 1px solid black;
+  border: 1px solid var(--accent-secondary);
   padding: 5px 0 5px 0;
 }
 td:first-child {

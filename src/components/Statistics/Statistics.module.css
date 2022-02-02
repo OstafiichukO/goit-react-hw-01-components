@@ -13,9 +13,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
   width: 100%;
-  padding: 20px 0;
   background-color: var(--secondary-bgc);
 }
 
@@ -23,6 +21,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+  width: 100%;
+  border: 1px solid var(--secondary-bgc);
 }
 
 .label {
