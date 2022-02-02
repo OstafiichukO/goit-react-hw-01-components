@@ -1,6 +1,6 @@
 .transactionHistory {
   color: var(--accent-secondary);
-  width: 500px;
+  width: 400px;
   border-collapse: collapse;
   border: 1px solid var(--secondary-bgc);
   text-align: center;
