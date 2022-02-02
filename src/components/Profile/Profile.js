@@ -13,15 +13,15 @@ const Profile = ({ userName, tag, location, avatar = defaultImage, stats }) => {
       </div>
 
       <ul className={s.stats}>
-        <li>
+        <li className={s.stats__el}>
           <span className={s.label}>Followers</span>
           <span className={s.quantity}>{stats.followers}</span>
         </li>
-        <li>
+        <li className={s.stats__el}>
           <span className={s.label}>Views</span>
-          <span className={s.quantity}>{stats.vievs}</span>
+          <span className={s.quantity}>{stats.views}</span>
         </li>
-        <li>
+        <li className={s.stats__el}>
           <span className={s.label}>Likes</span>
           <span className={s.quantity}>{stats.likes}</span>
         </li>
@@ -43,11 +43,11 @@ Profile.defaultProps = {
   tag: '@User tag',
   location: 'User location',
   avatar: 'https://www.flaticon.com/svg/static/icons/svg/3784/3784184.svg',
-  stats: {
-    followers: '0',
-    views: '0',
-    likes: '0',
-  },
+  // stats: {
+  //   followers: '0',
+  //   views: '0',
+  //   likes: '0',
+  // },
 };
 
 export default Profile;
